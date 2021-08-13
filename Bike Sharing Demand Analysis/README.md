@@ -20,8 +20,8 @@ Both hour.csv and day.csv have the following fields, except hr which is not avai
   - Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
   - Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
   - Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
-- temp : Normalized temperature in Celsius. The values are derived via (t-t_min)/(t_max-t_min), t_min=-8, t_max=+39 (only in hourly scale)
-- atemp: Normalized feeling temperature in Celsius. The values are derived via (t-t_min)/(t_max-t_min), t_min=-16, t_max=+50 (only in hourly scale)
+- temp : Normalized temperature in Celsius. 
+- atemp: Normalized feeling temperature in Celsius.
 - hum: Normalized humidity. The values are divided to 100 (max)
 - windspeed: Normalized wind speed. The values are divided to 67 (max)
 - casual: count of casual users
