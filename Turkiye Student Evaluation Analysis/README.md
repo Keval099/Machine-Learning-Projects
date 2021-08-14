@@ -2,11 +2,11 @@
 This data set contains a total 5820 evaluation scores provided by students from Gazi University in Ankara (Turkey). There is a total of 28 course specific questions and additional 5 attributes.
 
 # Attribute Information:
-instr: Instructor's identifier; values taken from {1,2,3}
-class: Course code (descriptor); values taken from {1-13}
-repeat: Number of times the student is taking this course; values taken from {0,1,2,3,...}
-attendance: Code of the level of attendance; values from {0, 1, 2, 3, 4}
-difficulty: Level of difficulty of the course as perceived by the student; values taken from {1,2,3,4,5}
+- instr: Instructor's identifier; values taken from {1,2,3}
+- class: Course code (descriptor); values taken from {1-13}
+- repeat: Number of times the student is taking this course; values taken from {0,1,2,3,...}
+- attendance: Code of the level of attendance; values from {0, 1, 2, 3, 4}
+- difficulty: Level of difficulty of the course as perceived by the student; values taken from {1,2,3,4,5}
 - Q1: The semester course content, teaching method and evaluation system were provided at the start.
 - Q2: The course aims and objectives were clearly stated at the beginning of the period.
 - Q3: The course was worth the amount of credit assigned to it.
